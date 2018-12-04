@@ -8430,6 +8430,7 @@ footer {
   color: #777;
   /* sidebar */
   /* forms */
+  /* Users edit */
 }
 
 footer a {
@@ -8519,5 +8520,15 @@ footer input {
 
 footer .panel {
   margin-top: 50px;
+}
+
+footer .gravatar_edit {
+  margin: 15px auto;
+  text-align: center;
+}
+
+footer .gravatar_edit .gravatar {
+  float: none;
+  max-width: 100px;
 }
 
