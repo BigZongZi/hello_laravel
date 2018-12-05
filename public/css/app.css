@@ -8430,7 +8430,6 @@ footer {
   color: #777;
   /* sidebar */
   /* forms */
-  /* Users edit */
 }
 
 footer a {
@@ -8520,6 +8519,14 @@ footer input {
 
 footer .panel {
   margin-top: 50px;
+}
+
+footer #logout {
+  cursor: default;
+}
+
+footer #logout:hover {
+  background-color: transparent;
 }
 
 footer .gravatar_edit {
