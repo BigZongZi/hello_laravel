@@ -8430,6 +8430,7 @@ footer {
   color: #777;
   /* sidebar */
   /* forms */
+  /* Users index */
 }
 
 footer a {
@@ -8537,5 +8538,23 @@ footer .gravatar_edit {
 footer .gravatar_edit .gravatar {
   float: none;
   max-width: 100px;
+}
+
+footer .users {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+footer .users li {
+  overflow: auto;
+  padding: 10px 0;
+  border-bottom: 1px solid #eeeeee;
+}
+
+footer .delete-btn {
+  float: right;
+  position: relative;
+  right: 0;
 }
 
